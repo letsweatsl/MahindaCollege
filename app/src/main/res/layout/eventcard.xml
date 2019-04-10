@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="100dp"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:background="@color/colorAccent"
+    android:id="@+id/datemonth"
+    >
+
+
+    <TextView
+        android:id="@+id/txtEventDate"
+        fontPath="fonts/psr.ttf"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#232323"
+        android:fontFamily="@font/interuimedium"
+        android:text="03"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        tools:ignore="MissingPrefix"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEventMonth"
+        android:text="NOV"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+       android:paddingLeft="80dp"
+        >
+
+
+        <TextView
+            android:id="@+id/txtEventTime"
+            fontPath="fonts/psr.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/interuimedium"
+            android:text="10.00am-1.00pm"
+            android:textColor="#444444"
+            android:textSize="25dp"
+
+
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/txtEventVenue"
+            fontPath="fonts/osl.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/interuimedium"
+            android:text="MahindaCollege"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#444444"
+
+
+            android:textSize="15dp"
+
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/txtEventDesc"
+            fontPath="fonts/merri.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:maxLength="50"
+            android:text="Layout. RelativeLayout is a view group that displays child views in relative positions. The position of each view can be specified as relative to sibling elements (such as to the left-of or below another view) or i"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+</RelativeLayout>
+</android.support.v7.widget.CardView>

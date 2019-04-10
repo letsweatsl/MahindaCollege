@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323"
+
+    >
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/wtchrest"
+            android:id="@+id/wt"
+
+
+            />
+
+        <TextView
+            android:id="@+id/infotitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wt"
+            android:fontFamily="@font/interuimedium"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:text="Web Team MCG"
+            android:textColor="#ffffff"
+
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/infodesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infotitle"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/interuimedium"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingRight="25dp"
+            android:text="rrggfffffffffffffffffdfd"
+            android:textColor="#ffffff"
+
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/infoemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infodesc"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/interuiregular"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingTop="20dp"
+            android:paddingRight="25dp"
+            android:text="info@mahindacollege.lk"
+            android:textColor="#ffffff"
+
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/infolink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infoemail"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/merriweatherlight"
+            android:gravity="center"
+            android:onClick="onClickLink"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:paddingRight="25dp"
+            android:text="rrggfffffffffffffffffdfd"
+            android:textColor="#ffba00"
+
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/infolinkmcg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infolink"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/merriweatherlight"
+            android:gravity="center"
+            android:onClick="onClickLinkMCG"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:paddingRight="25dp"
+            android:text="rrggfffffffffffffffffdfd"
+            android:textColor="#ffba00"
+
+
+            android:textSize="20dp" />
+
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:fillViewport="true"
+android:layout_below="@+id/toolbar"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+
+    <TextView
+        android:id="@+id/postTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#de000000"
+        android:lineSpacingExtra="4sp"
+        android:text="114th Lovers’ Quarrel: 10 Things You Should Know"
+        android:layout_marginTop="25dp"
+
+        android:fontFamily="@font/merriweatherregular"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="viewStart"
+        android:gravity="start" />
+
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/postTopic"
+        android:scaleType="centerCrop"
+
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/postDesc"
+        android:layout_below="@+id/postImage"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#de000000"
+        android:lineSpacingExtra="8sp"
+        android:fontFamily="@font/interuiregular"
+        android:text="kfewkl"
+        android:paddingBottom="20dp"/>
+
+
+    <TextView
+        android:layout_below="@+id/postDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkRef"
+        android:textSize="20sp"
+        android:textColor="#ffae00"
+        android:padding="10dp"
+        />
+
+
+</RelativeLayout>
+
+</ScrollView>
